@@ -2,7 +2,10 @@ import React from 'react';
 
 const Header = props => {
   return (
-    <h1>Header</h1>
+    <div className='jumbotron'>
+      <h1 className='display-4'>Conversor de Moedas</h1>
+      <p className='lead'>Do Zero ao Redux</p>
+    </div>
   );
 }
 
