@@ -2,7 +2,7 @@ import React from 'react';
 
 const ListaMoedas = props => {
   return (
-    <select className='form-control' name={props.origem}>
+    <select className='form-control' name={props.origem} onChange={props.onValueChange}>
       <option value='AED' title='United Arab Emirates Dirham'>AED</option>
       <option value='AFN' title='Afghan Afghani'>AFN</option>
       <option value='ALL' title='Albanian Lek'>ALL</option>
